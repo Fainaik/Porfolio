@@ -1,8 +1,6 @@
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
-  background: var(--bg);
-  color: var(--text);
   line-height: 1.6;
   display: flex;
   justify-content: center;
@@ -10,8 +8,6 @@ body {
 }
 
 div {
-  background: var(--card);
-  border: 1px solid var(--muted);
   border-radius: 12px;
   padding: 30px;
   max-width: 700px;
@@ -20,7 +16,6 @@ div {
 
 h1 {
   margin-top: 0;
-  color: var(--accent);
   font-size: 28px;
   text-align: center;
 }
@@ -28,8 +23,6 @@ h1 {
 h2 {
   margin-top: 30px;
   font-size: 20px;
-  color: var(--accent);
-  border-bottom: 2px solid var(--muted);
   padding-bottom: 6px;
 }
 
@@ -52,11 +45,9 @@ img {
   display: block;
   margin: 20px auto;
   border-radius: 8px;
-  border: 2px solid var(--muted);
 }
 
 a {
-  color: var(--accent);
   text-decoration: none;
   font-weight: 500;
 }
@@ -66,7 +57,6 @@ a:hover {
 }
 
 span {
-  background: var(--muted);
   padding: 2px 6px;
   border-radius: 4px;
 }
